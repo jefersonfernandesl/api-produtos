@@ -1,3 +1,8 @@
 # API DE PRODUTOS
 
-#### DOCKER - rodar o comando: docker-compose up -d --build e após os containers subirem rodar docker exec -it api-produtos bash seguido de php artisan migrate
+## Subir container com docker  
+```bash
+docker-compose up -d --build
+docker exec -it api-produtos bash 
+php artisan migrate
+```
