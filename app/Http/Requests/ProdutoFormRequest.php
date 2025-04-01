@@ -17,7 +17,7 @@ class ProdutoFormRequest extends FormRequest
             'nome'              => 'required|string',
             'descricao'         => 'required|string',
             'quantidade'        => 'required|numeric',
-            'preco'             => 'required|numeric',
+            'valor'             => 'required|numeric',
         ];
     }
 }
